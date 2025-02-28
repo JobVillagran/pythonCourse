@@ -36,5 +36,25 @@ print("4.", values[1:4])
 print("5.", values[2:6])
 
 # Inserting Data into the list
+values.insert(3, "Villagran")
+print(values)
 
-values.insert()
+# Adding a value at the end of the list
+values.append("Cua")
+print(values)
+
+values[4] = "Villagran"
+values[3] = "Job"
+print(values)
+
+del values[0]
+del values[0]
+del values[0]
+del values[2]
+del values[2]
+print(values)
+
+# Expected error, cannot reassigned values to a list that use parenthesis
+val = (1, 2, "job", 4.5)
+print(val)
+val[0] = "Villagran"
