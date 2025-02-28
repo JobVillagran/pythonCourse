@@ -61,7 +61,6 @@ print(val)
 
 
 # dictionary
-
 topicOne = 1
 topicTwo = 2
 topicThree = "*********** Hello World **********"
@@ -70,3 +69,11 @@ topicFour = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 dic = {"a": topicOne, "b": topicTwo, 4: topicThree, "c": topicFour}
 print(dic[4])
 print(dic["c"])
+
+# Modifying Dictionary
+dict = {}
+dict["firstname"] = "Job"
+dict["lastname"] = "Villagran"
+dict["age"] = 34
+print(dict)
+print(dict["firstname"])
