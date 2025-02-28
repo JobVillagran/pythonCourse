@@ -57,4 +57,16 @@ print(values)
 # Expected error, cannot reassigned values to a list that use parenthesis
 val = (1, 2, "job", 4.5)
 print(val)
-val[0] = "Villagran"
+# val[0] = "Villagran"
+
+
+# dictionary
+
+topicOne = 1
+topicTwo = 2
+topicThree = "*********** Hello World **********"
+topicFour = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+dic = {"a": topicOne, "b": topicTwo, 4: topicThree, "c": topicFour}
+print(dic[4])
+print(dic["c"])
