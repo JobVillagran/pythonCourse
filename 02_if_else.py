@@ -28,7 +28,6 @@ for k in range(1, 6):
     summation = summation + k
 print(summation)
 
-
 """
 How is done:
 
@@ -53,3 +52,18 @@ for k in range(1, 6):
 
 print(f"Total accumulated: {summation}")
 """
+
+# print odd numbers (range of 2)
+print("************")
+for m in range(1, 10, 2):
+    print(m)
+
+# print odd numbers (range of 10)
+print("************")
+for n in range(1, 100, 10):
+    print(n)
+
+# Skipping first index - it will start from 0 to 9
+print("************")
+for o in range(10):
+    print(o)
