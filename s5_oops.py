@@ -1,7 +1,7 @@
 # Self keyword is mandatory for calling variables nambes into method
 # instance and class variables have different purpose
 # constructor name should be _init_
-# When you don't create a constructor, default constructor will be called: def __init__(self):
+# If you don't create constructor, default constructor: def __init__(self):
 # new keyword is not required when you create an object
 
 
