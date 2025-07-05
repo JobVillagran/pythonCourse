@@ -53,8 +53,8 @@ totalAmount = int(driver.find_element(By.CLASS_NAME, "totAmt").text)
 assert sum == totalAmount
 
 totalAfterDiscount = float(driver.find_element(By.CLASS_NAME, "discountAmt").text)
-print(totalAfterDiscount)
 assert totalAmount > totalAfterDiscount
+print(totalAfterDiscount)
 
 
 time.sleep(3)
